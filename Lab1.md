@@ -13,6 +13,6 @@ ARP protokol radi tako da npr. *station-1* šalje paket svima u mreži, a točno
 
 *evil-station* u tom slučaju se predstavi *station-1* kao *station-2* i obrnuto. Time sva komunikacija ide kroz *evil-station*. Postignut je **Man-in-the-middle napad**.
 
-![Untitled](Lab1%207f8d8554702244d3a30855b0a6d575bf/Untitled.png)
+![Untitled](Lab1/Untitled.png)
 
 Ukoliko bi evil-station zaustavio tok komunikacije na jednom kraju, npr. zaustavio tok komunikacije od *station-1* do *station-2*, onda je izveden **DoS napad** (denial of service), napad uskraćivanjem usluge. Te informacije *evil-station* može proslijediti drugim stationima, ugrožavajući integritet.
